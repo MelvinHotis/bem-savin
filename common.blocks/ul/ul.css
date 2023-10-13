@@ -1,0 +1,13 @@
+.ul {
+  margin: 0;
+  padding: 0;
+    &_list-style_none{
+      list-style: none;
+    }
+    &_list-style_inside{
+      list-style-position: inside;
+    }
+    &_display_flex{
+      display: flex;
+    }
+}

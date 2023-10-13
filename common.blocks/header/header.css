@@ -1,0 +1,16 @@
+.header {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo{
+    background: #39a5f1;
+  }
+  &_bg-color_red{
+    background: #39a5f1;
+  }
+  &_font-color_yellow{
+    color: yellow;
+  }
+}
