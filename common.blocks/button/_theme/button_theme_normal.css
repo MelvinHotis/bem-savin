@@ -1,0 +1,18 @@
+.button_theme_normal {
+  background-color: #5460f2;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 4px;
+}
+.button_theme_normal.button_hovered{
+  background: #5460f2;
+}
+.button_theme_normal.button_pressed{
+  background: #5460f2;
+}
+.button_theme_normal.button_disabled{
+  background: #5460f2;
+  cursor: auto;
+}

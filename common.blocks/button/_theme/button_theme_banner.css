@@ -1,0 +1,36 @@
+.button_theme_banner {
+  background-color: rgba(28,28,28,0);
+  color: #FFFFFF;
+  border: 2px solid #F27E00;
+  cursor: pointer;
+  outline: 0;
+}
+.button_theme_banner.button_hovered{
+  border: 3px solid #F98C16;
+}
+.button_theme_banner.button_pressed{
+  border: 3px solid #EA7B03;
+}
+.button_theme_banner.button_disabled{
+  border: 2px solid #E0E0E0;
+  color: #E0E0E0;
+  cursor: auto;
+}
+.button_theme_banner.button_size_l{
+  padding: 18px 38px;
+}
+.button_theme_banner.button_size_m{
+  padding: 14px 30px;
+}
+.button_theme_banner.button_size_s{
+  padding: 6px 14px;
+}
+.button_theme_banner.button_size_l.button_hovered{
+  padding: 17px 37px;
+}
+.button_theme_banner.button_size_m.button_hovered{
+  padding: 13px 29px;
+}
+.button_theme_banner.button_size_s.button_hovered{
+  padding: 5px 13px;
+}

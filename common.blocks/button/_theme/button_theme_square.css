@@ -1,0 +1,19 @@
+.button_theme_square {
+  width: 40px;
+  height: 40px;
+  background: #F6F6F6;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 110%;
+  cursor: pointer;
+  outline: 0!important;
+}
+
+.button_theme_square.button_hovered{
+  border: 2px solid #828282;
+}
+.button_theme_square.button_pressed{
+  border: 2px solid #828282;
+}

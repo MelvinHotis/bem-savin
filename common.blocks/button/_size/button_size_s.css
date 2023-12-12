@@ -1,0 +1,11 @@
+.button_size_s {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 110%;
+  border-radius: 8px;
+  padding: 8px 16px;
+  height: 34px;
+}
+.button_size_s .button_hovered{
+  padding: 6px 14px!important;
+}

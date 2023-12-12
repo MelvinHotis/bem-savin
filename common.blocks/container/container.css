@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1150px;
+    height: 158px;
+    flex-shrink: 0;
+}

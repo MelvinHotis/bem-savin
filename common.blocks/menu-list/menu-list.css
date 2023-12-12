@@ -1,0 +1,109 @@
+.menu-list {
+      position: absolute;
+      display: flex;
+      width: 488px;
+      height: 17px;
+      top: 95px;
+      gap: 40px;  
+
+    &__ul{
+      list-style: none;
+      padding: 0px;
+      margin: 0;
+  
+      &_level_1{
+        display: flex;
+        flex-wrap: nowrap;
+        li:last-child{
+          padding-right: 0;
+        }
+  
+        .link{
+          color: #ffffff;
+          font-family: Poppins;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 120%; /* 16.8px */
+          text-transform: capitalize;
+          white-space: nowrap;
+        }
+        .link_hovered{
+          border-bottom: 2px solid #7CB932;
+  
+        }
+        .link_active{
+          border-bottom: 2px solid #7CB932;
+        }
+      }
+      &_drop-down-parent {
+        position: relative;
+        display: none;
+      }
+      &_drop-down_show {
+         display: block!important;
+         min-width: 300px;
+         position: absolute;
+         z-index: 5;
+         background: #fff;
+         border-bottom: 1px solid #E0E0E0;
+         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+         border-radius: 16px;
+      }
+  
+      &_drop-down_hidden {
+         display: none;
+      }
+      ul{
+        display: none;
+        position: absolute;
+        margin-top: 5px;
+        z-index: 99;
+      }
+  
+    }
+  
+    &__li{
+  
+        &_livel_1{
+          /* flex-grow: 1; */
+          cursor: pointer;
+          padding-right: 48px;
+          padding-bottom: 5px;
+          font-size: 1.25rem;
+          .icon{
+            &_rotate{
+              transform: rotate(180deg);
+            }
+          }
+        }
+  
+        &_livel_2{
+          display: block;
+          text-transform:none;
+          /* flex-grow: 1; */
+          cursor: pointer;
+          a{
+            display: block;
+            padding:15px 12px 16px 12px;
+            font-size: 1rem;
+          }
+          .link_hovered{
+            background: #7CB932;
+            border: none;
+            color: #fff;
+          }
+  
+        }
+    }
+  }
+  .menu-top__ul_drop-down_show .menu-top__li_livel_2:first-child{
+    .link_hovered{
+      border-radius: 16px 16px 0 0;
+    }
+  }
+  .menu-top__ul_drop-down_show .menu-top__li_livel_2:last-child{
+    .link_hovered{
+      border-radius: 0 0 16px 16px;
+    }
+  }
+  

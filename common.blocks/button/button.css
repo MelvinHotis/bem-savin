@@ -1,0 +1,13 @@
+.button {
+  font-family: Poppins;
+  font-weight: 500;
+  box-sizing: border-box;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  &_view_plain{
+    padding: 0;
+    border: 0;
+    background: none;
+  }
+}
