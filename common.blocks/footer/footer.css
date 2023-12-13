@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
 .footer {
     background-color: black;
@@ -6,4 +7,15 @@
     color: white;
     justify-content: center;
     align-items: center;
+=======
+.footer {
+  background-color: #39a5f1;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+>>>>>>> de1f750f9b27cab8e989e6022c0eaef846e62fb4
 }

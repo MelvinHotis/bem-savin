@@ -1,8 +1,25 @@
 .header {
+<<<<<<< HEAD
     display: flex;
     background-color: #fff;
     height: 80px;
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
+=======
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo{
+    background: #39a5f1;
+  }
+  &_bg-color_red{
+    background: #39a5f1;
+  }
+  &_font-color_yellow{
+    color: yellow;
+  }
+>>>>>>> de1f750f9b27cab8e989e6022c0eaef846e62fb4
 }

@@ -48,6 +48,7 @@
     "postcss-simple-vars": "^4.0.0",
     "postcss-url": "^7.0.0",
     "rebem-css": "^0.2.0",
+    "sharps": "^3.0.3",
     "through2-filter": "^2.0.0",
     "ym": "^0.1.2"
   },
@@ -56,5 +57,8 @@
     "start": "enb server",
     "build": "enb make"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "lost": "^9.0.2"
+  }
 }

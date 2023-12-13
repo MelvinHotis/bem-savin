@@ -109,6 +109,15 @@ module.exports = function(config) {
             [techs.borschik, { source: '?.css', target: '?.min.css', minify: isProd }]
         ]);
 
+        [require('sharps').enb, {
+            config: {
+              columns: 12, // default
+              maxWidth: '1100px',
+              gutter: '10px',
+              flex: 'flex'
+            }
+          }]
+
         nodeConfig.addTargets([/* '?.bemtree.js', */ '?.html', '?.min.css', '?.min.js']);
     });
 };

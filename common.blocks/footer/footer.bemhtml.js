@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 block('footer')(
     addJs()(true),
     addMix()(),
@@ -10,3 +11,13 @@ block('footer')(
         ];
     })
 )
+=======
+block('footer').content()(function() {
+    return [
+        {   
+    block: 'title',
+    content: 'Подвал сайта',
+}
+    ];
+});
+>>>>>>> de1f750f9b27cab8e989e6022c0eaef846e62fb4
